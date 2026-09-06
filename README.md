@@ -4,6 +4,28 @@ I build business software that connects office decisions with work on the ground
 
 ## Featured work
 
+### DSO — From paper service orders to connected field operations
+
+I led development of the DSO application during my internship at Cora Environment, working with business stakeholders from discovery and workflow mapping through demonstrations, UAT, and training. The platform connects office scheduling and review with the drivers and technicians carrying out the work.
+
+One role-aware PWA supports office and field users across business units. It brings together job assignment, GPS events, offline recovery, photographs, signatures, configurable forms, QR/PIN access, and multilingual interfaces. NeoCRM integration runs through a separate API aggregator, developed by another engineer.
+
+**Engineering focus:** preserving field progress when connectivity drops, separating approved work from background delivery failures, and keeping a traceable completion record. PDF generation, customer email, and CRM delivery have their own processing states.
+
+**Stack:** Next.js · React · TypeScript · NestJS · PostgreSQL · Prisma · BullMQ · Redis · next-intl · IndexedDB · AWS S3 / Textract · Microsoft Entra ID / Graph
+
+<img src="assets/dso-work-orders.png" alt="DSO office work-order board showing fictional jobs across assignment, field work, review, and completion" width="100%" />
+
+<details>
+<summary>See the mobile field queue and operations reporting</summary>
+
+<img src="assets/dso-mobile.png" alt="DSO mobile field queue with sample priority jobs for a driver" width="360" />
+<img src="assets/dso.png" alt="DSO operations reporting with synthetic workload and service-completion figures" width="100%" />
+
+</details>
+
+*Local preview from the latest main branch with synthetic operations data. Dashboard figures illustrate the interface; they are not company results.*
+
 ### ePR — Procurement from request to approval
 
 An electronic purchase-request platform covering standard and blanket requests, configurable approval routing, procurement queues, attachments, and audit history. Dashboards bring spend, outstanding approvals, and process health into one view; Microsoft identity and email integrations connect the workflow to the workplace.
@@ -43,28 +65,6 @@ A Power Apps Code App that guides field users through five steps: basic details,
 </details>
 
 *Customer selection, assignment and tonnage, and proof capture in the service-order-form app. All records and the signature are synthetic.*
-
-### DSO — From paper service orders to connected field operations
-
-I led development of the DSO application during my internship at Cora Environment, working with business stakeholders from discovery and workflow mapping through demonstrations, UAT, and training. The platform connects office scheduling and review with the drivers and technicians carrying out the work.
-
-One role-aware PWA supports office and field users across business units. It brings together job assignment, GPS events, offline recovery, photographs, signatures, configurable forms, QR/PIN access, and multilingual interfaces. NeoCRM integration runs through a separate API aggregator, developed by another engineer.
-
-**Engineering focus:** preserving field progress when connectivity drops, separating approved work from background delivery failures, and keeping a traceable completion record. PDF generation, customer email, and CRM delivery have their own processing states.
-
-**Stack:** Next.js · React · TypeScript · NestJS · PostgreSQL · Prisma · BullMQ · Redis · next-intl · IndexedDB · AWS S3 / Textract · Microsoft Entra ID / Graph
-
-<img src="assets/dso-work-orders.png" alt="DSO office work-order board showing fictional jobs across assignment, field work, review, and completion" width="100%" />
-
-<details>
-<summary>See the mobile field queue and operations reporting</summary>
-
-<img src="assets/dso-mobile.png" alt="DSO mobile field queue with sample priority jobs for a driver" width="360" />
-<img src="assets/dso.png" alt="DSO operations reporting with synthetic workload and service-completion figures" width="100%" />
-
-</details>
-
-*Local preview from the latest main branch with synthetic operations data. Dashboard figures illustrate the interface; they are not company results.*
 
 ## Core tech stack
 
