@@ -2,6 +2,24 @@
 
 I build business software that connects office decisions with work on the ground. My focus is procurement and field operations: turning paper forms, approval chains, and disconnected updates into usable applications.
 
+## Personal apps
+
+<img src="assets/personal-apps.svg" alt="Illustrated previews of RUN/WAY, Calorie Pill and Awake Pill with fictional data" width="100%" />
+
+| App | What it does | Source |
+| --- | --- | --- |
+| **RUN/WAY** | Personal spending plans, manual expense logging, authenticated ChatGPT spending checks and a foreground GPS run tracker. | [Explore repository](https://github.com/afreedy/runway) |
+| **Calorie Pill** | A floating macOS calorie display, local meal log, CLI and desktop widget. Food values are estimates. | [Explore repository](https://github.com/afreedy/calorie-pill) |
+| **Awake Pill** | A native macOS sleep-control pill with kernel-state checks and optional startup configuration. | [Explore repository](https://github.com/afreedy/awake-pill) |
+
+These illustrations use fictional values. The Mac apps run locally; credentials and personal meals, spending records and GPS history are excluded from the repositories.
+
+## GitHub activity
+
+<img src="assets/contributions.svg" alt="A daily-refreshed calendar of GitHub-reported contributions" width="100%" />
+
+The calendar reads GitHub’s contribution data and refreshes with GitHub Actions. It shows activity, not project quality or hours worked.
+
 ## Featured work
 
 ### DSO — From paper service orders to connected field operations
