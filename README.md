@@ -4,8 +4,6 @@ I build business software that connects office decisions with work on the ground
 
 ## Personal apps
 
-<img src="assets/personal-apps.svg" alt="Illustrated previews of RUN/WAY, Calorie Pill and Awake Pill with fictional data" width="100%" />
-
 | App | What it does | Source |
 | --- | --- | --- |
 | **RUN/WAY** | Personal spending plans, manual expense logging, authenticated ChatGPT spending checks and a foreground GPS run tracker. | [Explore repository](https://github.com/afreedy/runway) |
