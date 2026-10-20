@@ -2,15 +2,25 @@
 
 I build business software that connects office decisions with work on the ground. My focus is procurement and field operations: turning paper forms, approval chains, and disconnected updates into usable applications.
 
-## Personal apps
+## Personal projects
 
-| App | What it does | Source |
-| --- | --- | --- |
-| **RUN/WAY** | Personal spending plans, manual expense logging, authenticated ChatGPT spending checks and a foreground GPS run tracker. | [Explore repository](https://github.com/afreedy/runway) |
-| **Calorie Pill** | A floating macOS calorie display, local meal log, CLI and desktop widget. Food values are estimates. | [Explore repository](https://github.com/afreedy/calorie-pill) |
-| **Awake Pill** | A native macOS sleep-control pill with kernel-state checks and optional startup configuration. | [Explore repository](https://github.com/afreedy/awake-pill) |
+Small apps, local tools, and experiments I build and use. Public source links are below; live sites are linked where a deployment exists.
 
-These illustrations use fictional values. The Mac apps run locally; credentials and personal meals, spending records and GPS history are excluded from the repositories.
+| Project | What it does | Source | Live |
+| --- | --- | --- | --- |
+| **Headroom** | Multiple Codex accounts in one dashboard, with remaining limits, reset countdowns and banked-reset expiry dates. Credentials stay in a local Mac connector. | [Repository](https://github.com/afreedy/headroom) | [Website](https://headroom-usage.vercel.app) · Vercel sign-in |
+| **Murmur** | macOS Fn-key dictation with local Whisper transcription, optional Codex text formatting, guarded paste and local history. | [Repository](https://github.com/afreedy/murmur) | Local Mac app |
+| **Papertrail** | Politician disclosure search, reported trade ranges, annual holdings snapshots, source filings and opt-in email alerts. | [Repository](https://github.com/afreedy/papertrail) | [Website](https://public-ledger-seven.vercel.app) |
+| **RUN/WAY** | Personal spending plans, manual expenses, authenticated ChatGPT spending checks and a foreground GPS run tracker. | [Repository](https://github.com/afreedy/runway) | [Website](https://runway-spend-tracker.vercel.app) |
+| **Calorie Pill** | Floating macOS calorie display, local meal log, CLI and desktop widget. Food values are estimates. | [Repository](https://github.com/afreedy/calorie-pill) | Local Mac app |
+| **Awake Pill** | Native macOS sleep-control pill with kernel-state checks and optional startup configuration. | [Repository](https://github.com/afreedy/awake-pill) | Local Mac app |
+| **Ditherlab** | Browser-based image dithering, color palettes, motion export and a separate pose-assisted image editor. | [Repository](https://github.com/afreedy/ditherlab) | Run locally |
+| **Study Day Planner** | Calendar-based study blocks, effort levels, completion tracking, sharing and an authenticated MCP interface. The public source uses neutral sample branding. | [Repository](https://github.com/afreedy/study-day-planner) | [Website](https://study-day-planner.vercel.app) |
+| **Website to Design.md** | Agent skill that extracts source-backed design tokens, component recipes and responsive guidance from websites and saved HTML/MHTML. | [Repository](https://github.com/afreedy/website-to-design-md) | Agent skill |
+| **MakanMate** | Mobile-first food discovery and ordering interface with maps, menus, wallet screens and pickup tickets. Frontend prototype. | [Repository](https://github.com/afreedy/MakanMate-SIP) | Run locally |
+| **NeoCRM DSO prototype** | Early service-order prototype with a React frontend, mock CRM backend and in-memory demo records. | [Repository](https://github.com/afreedy/neocrm-dso-backend) | Run locally |
+
+Public source exports exclude credentials, account sessions, personal records, audio and private photos. Some live tools require sign-in or a local helper; publishing source does not expose personal account data. Setup and known limitations are documented in each repository.
 
 ## GitHub activity
 
@@ -94,7 +104,7 @@ A Power Apps Code App that guides field users through five steps: basic details,
 | Infrastructure & delivery | AWS S3, Textract, Docker, pnpm, GitHub Actions |
 | Quality | Vitest, Jest, Playwright, Testing Library, Zod |
 
-ePR and DSO source code is private; Digital SO’s public repository is linked above. All screenshots show local application interfaces with synthetic data. API and connector responses are replaced with demo fixtures for these previews.
+ePR, DSO and Digital SO source code is private; workplace projects are documented here with synthetic previews. All screenshots show local application interfaces with synthetic data. API and connector responses are replaced with demo fixtures for these previews.
 
 <details>
 <summary><strong>More projects and earlier work</strong></summary>
