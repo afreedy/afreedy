@@ -22,11 +22,6 @@ Small apps, local tools, and experiments I build and use. Public source links ar
 
 Public source exports exclude credentials, account sessions, personal records, audio and private photos. Some live tools require sign-in or a local helper; publishing source does not expose personal account data. Setup and known limitations are documented in each repository.
 
-## GitHub activity
-
-<img src="assets/contributions.svg" alt="A daily-refreshed calendar of GitHub-reported contributions" width="100%" />
-
-The calendar reads GitHub’s contribution data and refreshes with GitHub Actions. It shows activity, not project quality or hours worked.
 
 ## Featured work
 
